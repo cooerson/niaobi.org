@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <!-- 預加載說明 https://developer.mozilla.org/zh-CN/docs/Web/HTML/Preloading_content-->
+    <link rel="preload" href="assets/images/mobile/header.svg" as="image" media="(max-width: 980px)">
+    <link rel="preload" href="assets/images/intro/intro-illust.svg" as="image" media="(min-width: 981px)">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg.min.js" as="script">
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "鳥幣支付",
+            "url": "https://niaobi.org/"
+        }
+    </script>
+    <!-- Primary Meta Tags -->
+    <title>鳥幣支付</title>
+    <meta name="title" content="鳥幣支付">
+    <meta name="description" content="人間所需物質皆來自地球。鳥幣是壹款基於已經存在的信用關系和已經擁有的廣義技能作為交易價值的貨幣系統，也是讓願意沈浸在熱愛之中的人們連接到壹起的生活方式。 ibispay is an intelligent payment network based on the skills you already have.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://niaobi.org/">
+    <meta property="og:title" content="鳥幣支付">
+    <meta property="og:description" content="人間所需物質皆來自地球。鳥幣是壹款基於已經存在的信用關系和已經擁有的廣義技能作為交易價值的貨幣系統，也是讓願意沈浸在熱愛之中的人們連接到壹起的生活方式。 ibispay is an intelligent payment network based on the skills you already have.">
+    <meta property="og:image" content="assets/open/meta.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://niaobi.org/">
+    <meta property="twitter:title" content="鳥幣支付">
+    <meta property="twitter:description" content="人間所需物質皆來自地球。鳥幣是壹款基於已經存在的信用關系和已經擁有的廣義技能作為交易價值的貨幣系統，也是讓願意沈浸在熱愛之中的人們連接到壹起的生活方式。 ibispay is an intelligent payment network based on the skills you already have.">
+    <meta property="twitter:image" content="assets/open/meta.webp">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="zh">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="鳥幣支付" />
+    <meta name="author" content="鳥神">
+
+    <meta name="keywords" content="鳥幣,鳥神,行動派,封神丹,昆侖法門,數字貨幣,技能代幣,技能貨幣,比特幣,以太幣,區塊鏈,bitcoin,去中心化,民主" />
+    <meta name="apple-mobile-web-app-title" content="鳥幣支付" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+
+    <meta name="msapplication-TileImage" content="assets/open/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="assets/open/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="assets/open/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="assets/open/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="assets/open/favicon/mstile-310x310.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/open/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/open/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/open/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/open/favicon/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="assets/open/favicon/favicon-196x196.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/open/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/open/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/open/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/open/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/open/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/open/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/open/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/open/favicon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/open/favicon/apple-touch-icon-180x180.png" />
+    <link rel="manifest" href="manifest-v1.json">
+    <link rel="canonical" href="index.html">
+
+    <link rel="stylesheet" href="assets/css/style_chn_sim-v2.min.css">
+    <link rel="stylesheet" href="assets/css/mobile_chn_sim-v1.min.css">
+    <link rel="stylesheet" href="assets/css/reset-v2.min.css">
+    <link rel="stylesheet" href="assets/css/font-v1.min.css">
+    <!-- <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom_eng-v=102.min.js"></script>
+    <!--合並js和css -->
+    <!-- <link rel="stylesheet" href="assets/css/dist/one-v2.min.css">
+    <script type="text/javascript" src="assets/js/dist/one-v2.min.js"></script> -->
+</head>
+
+<body>
+    <!-- <div class="bg-pop">
+        <div class="pop">
+            <img src="assets/images/combinedshape.svg" class="close-popup">
+            <img src="assets/images/popup/pop.png" class="popup">
+        </div>
+    </div> -->
+
+
+    <!-- <div class="banner scroll-navigation" data-index="#Subscribe">
+        <p class="pc-banner">nav</p>
+        <p class="mobile-banner">nav</p>
+        <div><img src="/assets/images/combinedshape.svg"></div>
+    </div> -->
+
+    <div class="header-line"></div>
+    <div id="wrap-body">
+        <div class="wrap-section">
+            <div class="khula" id="wrap-main">
+                <img src="assets/images/mobile/menu-icon.svg" class="burger">
+                <div class="burger-nav khula">
+                    <img class="close-burger" src="assets/images/combinedshape.svg">
+                    <ul class="mobile-gnb">
+                        <li data-index=".Download">
+                            <p>下載白皮書</p>
+                            <ul>
+                                <li>
+                                    <a href="assets/open/鸟币白皮书.pdf" target="_blank">
+                                        <p>简体中文</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="assets/open/鳥幣白皮書.pdf" target="_blank">
+                                        <p>繁體中文</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-index="#How-Does">
+                            <p>平臺概述</p>
+                        </li>
+                        <li data-index="#Token-Sale">
+                            <p>成為股東</p>
+                        </li>
+                        <li data-index="#Team">
+                            <p>關於我們</p>
+                        </li>
+                    </ul>
+                    <ul class="sns-icons clear">
+                        <li>
+                            <a href="https://www.instagram.com/xingdongpai/" target="_blank"><img class="Icon-Pack" src="assets/images/11_footer/insta-white.svg"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCAjZCihD4igTs8EHY6MneQw" target="_blank"><img class="Icon-Pack" src="assets/images/11_footer/youtube-white.svg"></a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@cooerson" target="_blank"><img class="Icon-Pack" src="assets/images/11_footer/medium-white.svg"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/fenixnake" target="_blank"><img class="Icon-Pack" src="assets/images/11_footer/github-white.svg"></a>
+                        </li>
+                    </ul>
+                    <p>Copyright © 2015-2035 niaobi.org</p>
+                </div>
+                <div class="wrap">
+                    <div class="clear" id="header">
+                        <h1 class="fl">
+                            <a href="index.html"><img src="assets/images/ibispay-chn.svg"></a>
+                        </h1>
+                        <ul class="nav fl">
+                            <li data-index=".Download">白皮書</li>
+                            <li data-index="#How-Does">平臺概述</li>
+                            <li data-index="#Token-Sale">成為股東</li>
+                            <li data-index="#Team">關於我們</li>
+                        </ul>
+                        <ul class="language">
+                            <li>繁體中文
+                                <div class="arrow-down"><img src="assets/images/06_moneyflow/r-arrow.svg"></div>
+                            </li>
+                            <li><a href="index.html">简体中文</a></li>
+                        </ul>
+                    </div>
+                    <div id="main-content">
+                        <h2>體驗<span>共享經濟</span><br>的樂趣</h2>
+                        <p>鳥幣是壹種直接使用技能交換物品的工具</p>
+                        <ul class="button clear">
+                            <li><a href="https://github.com/fenixnake" target="blank">Github源碼</a></li>
+                            <li><a class="scroll-navigation" href="#" data-index="#Subscribe">控制臺</a></li>
+                        </ul>
+                        <div class="private-box">
+                            <h3>DONATE NOW</h3>
+                            <div class="Rectangle-6">
+                                <ul class="Contact_icons clear">
+                                    <li>
+                                        <a href="/assets/open/wechat.png" target="_blank">
+                                            <img src="assets/images/wechat.svg">
+
+                                        </a>
+                                        <p>微信</p>
+                                    </li>
+                                    <li>
+                                        <a href="https://t.me/cooerson" target="_blank">
+                                            <img src="assets/images/telegram.svg">
+                                        </a>
+                                        <p>Telegram</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-section">
+            <div class="khula" id="logo-top">
+                <h2><img src="assets/images/act-v1.png">行動派榮譽出品</h2>
+            </div>
+        </div>
+        <!--mobile-private-->
+        <div class="Mobile-private khula">
+            <h2>DONATE NOW</h2>
+            <ul class="Contact_icons clear">
+                <li>
+                    <a href="https://t.me/cooerson" target="_blank"><img src="assets/images/telegram.svg"></a>
+                    <p>Telegram</p>
+                </li>
+                <li>
+                    <a href="/assets/open/wechat.png" target="_blank">
+                        <img src="assets/images/wechat.svg">
+                    </a>
+                    <p>wechat</p>
+                </li>
+            </ul>
+        </div>
+        <!-- videoSection-->
+        <!-- <div class="wrap-section">
+            <iframe width="560" height="315" src="" allowfullscreen=""></iframe>
+            <div class="khula" id="videoSection">
+                <img class="video-bg" src="assets/images/video_bg.png">
+                <p><img class="Outlined-White" src="assets/images/03_video/play-button.svg"></p>
+                <p class="At-half-past-eight-t">By the Creators, For the Creators, Of the Creators</p>
+            </div>
+            <div class="background-black"><img src="assets/images/combinedshape.svg" class="Close-video"></div>
+        </div> -->
+        <!-- videoSection -->
+        <!-- What-Is-UNNIO-->
+        <div class="wrap-section">
+            <div id="What-Is-Ibispay" class="khula">
+                <h2>壹人壹國壹中央銀行</h2>
+                <p>人間所需物質皆來自地球。對於花鳥蟲魚獸來說，生存從來都是壹件非常簡單的事情，不需要壹分錢就能辦到。可眾生皆忘生來富有，被強制性貨幣的交易規則限制了愛的自由。
+                </p>
+                <h3>鳥幣的存在，就是為了讓願意沈浸在熱愛之中的人們連接到壹起。</h3>
+            </div>
+            <div class="Download khula">
+                <p>簡單白皮書</p>
+                <ul class="Down-paper clear">
+                    <li>
+                        <a href="assets/open/鸟币白皮书.pdf" target="_blank">
+                            <img src="assets/images/download.svg">
+                            <p>简体中文</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="assets/open/鳥幣白皮書.pdf" target="_blank">
+                            <img src="assets/images/download.svg">
+                            <p>繁體中文</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- What-Is-Ibispay-->
+        <!-- Subscribe-->
+        <!-- <div class="wrap-section">
+            <div class="khula" id="Subscribe">
+                <div class="Field">
+                    <h2>簡單白皮書</h2>
+                    <p>了解壹下貨幣的秘密！</p>
+				<form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<fieldset class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="fr" value="Subscribe"></fieldset>
+				</form>
+        <div class="submit">
+            <a href="assets/images/chn_whitepaper.pdf" ; target="_blank">下載</a>
+        </div>
+    </div>
+    <div class="Confirm khula">
+        <img src="assets/images/combinedshape.svg">
+        <img src="assets/images/check.svg">
+        <p>Thank you!</p>
+    </div>
+    </div>
+    <div class="Background-white"></div>
+    </div> -->
+        <!-- Subscribe-->
+        <!-- Community-->
+        <div class="Community khula">
+            <h2>FOLLOW</h2>
+            <div class="sns-inner">
+                <ul class="sns-link clear">
+                    <li>
+                        <a href="https://www.instagram.com/xingdongpai/" target="_blank"><img src="assets/images/snslogos/instagram_blue.svg"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCAjZCihD4igTs8EHY6MneQw" target="_blank"><img src="assets/images/snslogos/youtube_blue.svg"></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@cooerson" target="_blank"><img src="assets/images/snslogos/medium_blue.svg"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/fenixnake" target="_blank"><img src="assets/images/snslogos/github_blue.svg"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Community-->
+        <!-- Product-Line-->
+        <div class="wrap-section">
+            <div id="Product-Line">
+                <h2 class="khula">鳥幣連接天賦</h2>
+                <div class="img-box">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 461px)" srcset="assets/images/scene_1.webp">
+                        <source type="image/png" media="(min-width: 461px)" srcset="assets/images/scene_1.png">
+
+                        <source type="image/webp" media="(max-width: 460px)" srcset="assets/images/scene_1_580.webp">
+                        <source type="image/png" media="(max-width: 460px)" srcset="assets/images/scene_1_580.png">
+
+                        <img src="assets/images/scene_1.png" alt="">
+                    </picture>
+                </div>
+                <div class="P-Line-Top clear">
+                    <!-- Product-Line-->
+                    <div class="P-Top-Left fl">
+                        <p class="Layer-Num khula">01</p>
+                        <h3 class="khula">唯愛是圖</h3>
+                        <p>為了賺錢，治病救人的醫生，沒病竟也能看出病來。被幾張紙限制了？還是被"互相收割"的念頭限制了？而在鳥幣生態中，妳已經有錢(技能)了，所以根本不用「刻意賺錢」。看！壹個念頭的改變，就能改變壹切！
+                        </p>
+                    </div>
+                    <div class="P-Top-Right fr">
+                        <ul>
+                            <li class="clear"><img class="Product-Line-1 fl" src="assets/images/05_products/product-line-1.svg">
+                                <div class="Unnio-Content fl">
+                                    <p>按需發幣</p>
+                                    <p>雖然每個人都能發行任意數量的鳥幣，但只有被互相認可的價值才能最終達成交易。錢多價值就多的觀點，令人忍不住想笑出來。</p>
+                                </div>
+                            </li>
+                            <li class="clear"><img class="Product-Line-2 fl" src="assets/images/05_products/product-line-2.svg">
+                                <div class="Unnio-Content fl">
+                                    <p>回歸貨幣極簡本質</p>
+                                    <p>如何交換技能和商品，是完全由買賣雙方決定的，沒有通貨膨脹的概念。</p>
+                                </div>
+                            </li>
+                            <li class="clear"><img class="Product-Line-3 fl" src="assets/images/05_products/product-line-3.svg">
+                                <div class="Unnio-Content fl">
+                                    <p>自助信用</p>
+                                    <p>交易必然存在信用，需要相信的人越少，那麽壹個貨幣系統就越成功。鳥幣在這點上是天生贏家。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="P-Line-Bottom clear">
+                    <div class="Uunireview fl">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1281px)" srcset="assets/images/scene_2_580.webp">
+                            <source type="image/png" media="(min-width: 1281px)" srcset="assets/images/scene_2_580.png">
+
+                            <source type="image/webp" media="(min-width: 461px) and (max-width: 1280px)" srcset="assets/images/scene_2.webp">
+                            <source type="image/png" media="(min-width: 461px) and (max-width: 1280px)" srcset="assets/images/scene_2.png">
+
+                            <source type="image/webp" media="(max-width: 460px)" srcset="assets/images/scene_2_580.webp">
+                            <source type="image/png" media="(max-width: 460px)" srcset="assets/images/scene_2_580.png">
+
+                            <img src="assets/images/scene_2.png" alt="">
+                        </picture>
+                        <div class="P-Bottom-Left">
+                            <p class="Layer-Num khula">02</p>
+                            <h3 class="khula">人民幣變草紙？</h3>
+                            <p>錢不值錢是件很正常的事情。隨著貿易戰愈演愈烈，每個人的財富都受到加倍稀釋。不過不用怕，他們把錢變成草紙，我們把草紙變成錢。</p>
+                        </div>
+                    </div>
+                    <div class="Line fl">border-line</div>
+                    <div class="Uunipress fr">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1281px)" srcset="assets/images/scene_3_580.webp">
+                            <source type="image/png" media="(min-width: 1281px)" srcset="assets/images/scene_3_580.png">
+
+                            <source type="image/webp" media="(min-width: 461px) and (max-width: 1280px)" srcset="assets/images/scene_3.webp">
+                            <source type="image/png" media="(min-width: 461px) and (max-width: 1280px)" srcset="assets/images/scene_3.png">
+
+                            <source type="image/webp" media="(max-width: 460px)" srcset="assets/images/scene_3_580.webp">
+                            <source type="image/png" media="(max-width: 460px)" srcset="assets/images/scene_3_580.png">
+
+                            <img src="assets/images/scene_3.png" alt="">
+                        </picture>
+                        <div class="P-Bottom-Left">
+                            <p class="Layer-Num khula">03</p>
+                            <h3 class="khula">技能當錢花</h3>
+                            <p>技能指自身天賦中任何對他人有用的東西，是鳥幣所信仰的交易的根本價值，直覺告訴我們，"天賦拼圖"將是人類經濟最佳和最終的形態！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product-Line-->
+        <!-- Money-Flow-->
+        <div id="Wrap-Money">
+            <h2 class="khula">鳥幣生態模型</h2>
+            <img src="assets/images/06_moneyflow/moneyflow-illust.svg">
+            <div class="Money-Section-Line"></div>
+            <div id="Money-Flow">
+                <div class="Money-Line clear">
+                    <div class="Money-Content fl">
+                        <div class="Oval">1</div>
+                        <h3>賣家</h3>
+                        <ul>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>支持人民幣收款</p>
+                            </li>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>支持鳥幣收款</p>
+                            </li>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>個人價值展示</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Money-Content fl clear">
+                        <div class="Oval">2</div>
+                        <h3>買家</h3>
+                        <ul>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>發幣即支付</p>
+                            </li>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>非及時履行技能</p>
+                            </li>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>自助信用</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Money-Content fl">
+                        <div class="Oval">3</div>
+                        <h3>開源</h3>
+                        <ul>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>源碼公開</p>
+                            </li>
+                            <li>
+                                <p class="list-style"></p>
+                                <p>壹鍵部署</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gray-round"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Money-Flow-->
+        <!-- How-Does-->
+        <div class="clear" id="How-Does">
+            <div class="How-Does-Left fl">
+                <h2 class="khula">平臺概述</h2>
+                <p>可曾試想，<span>先用技能換錢，再用錢換物品</span>，那還不如<span class="bold">直接用技能換物品</span>！ 即使商家不需要某項技能，他也可以把此技能代幣(某人發行的鳥幣)轉手給需要的人。而發幣人只需要兌現技能承諾就行了。
+                    <br><br>沒有中間人，就沒有人可以暗地裏稀釋貨幣，更重要的，<span>讓每個人都有開啟天賦沈浸在熱愛之中的選擇權。</span>通過做喜愛的事情，天賦得以釋放，並通過技能代幣在此生態系統中重新連結彼此。還有比這更美好的事情嗎？
+
+                </p>
+            </div>
+            <div class="How-Does-Right fr">
+                <div class="Right-Img">cash-stack-img</div>
+                <div class="Right-Img">coin-stack-img</div>
+                <div class="Right-Img">coin-stack-img</div>
+                <div class="Right-Img">cash-stack-img</div>
+                <div class="Right-Img">coin-stack-img</div>
+            </div>
+        </div>
+        <!-- How-Does-->
+        <!-- Token-Sale-->
+        <div id="Token-Sale">
+            <h2 class="khula">妳最成功的壹筆投資</h2>
+            <p>直覺引領我們行至此處，<br>而妳的加入承載著我們不可思議的未來。</p>
+            <ul class="Token-Inner clear">
+                <li>
+                    <h3 class="Token-Sub">天使輪估值</h3>
+                    <p><img src="assets/images/07_token-sale/price.svg"></p>
+                    <p class="Top-Num khula">36,180,000</p>
+                    <p class="Bottom-Txt khula">RMB</p>
+                </li>
+                <li>
+                    <h3 class="Token-Sub">本輪私募額</h3>
+                    <p><img src="assets/images/07_token-sale/target.svg"></p>
+                    <p class="Top-Num khula">3,820,000</p>
+                    <p class="Bottom-Txt khula">RMB</p>
+                </li>
+                <li>
+                    <h3 class="Token-Sub">價格</h3>
+                    <p><img src="assets/images/07_token-sale/token-supply.svg"></p>
+                    <p class="Top-Num khula">1% 股份</p>
+                    <p class="Bottom-Txt khula">= 361,800 RMB</p>
+                </li>
+            </ul>
+            <p class="Inquiry khula">成為股東</p>
+            <div class="Kakao">
+                <a href="/assets/open/wechat.png" target="_blank"><img src="assets/images/wechat.svg"></a>
+            </div>
+            <div class="Telegram">
+                <a href="https://t.me/cooerson" target="_blank"><img src="assets/images/telegram.svg"></a>
+            </div>
+        </div>
+        <div id="Token-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="khula">法幣</th>
+                        <th class="khula">鳥幣</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>顯著特點</td>
+                        <td>創造隱性奴役和惡性競爭</td>
+                        <td>純粹為交易服務的工具</td>
+                    </tr>
+                    <tr>
+                        <td>信用體系</td>
+                        <td>超發驚人，無信任可言</td>
+                        <td>自身源代碼公開，用戶信用自助</td>
+                    </tr>
+                    <tr>
+                        <td>發行方式</td>
+                        <td>暗中稀釋+放貸+利息</td>
+                        <td>技能白條</td>
+                    </tr>
+                    <tr>
+                        <td>通貨膨脹</td>
+                        <td>無限膨脹直到系統或人口崩潰</td>
+                        <td>——</td>
+                    </tr>
+                    <tr>
+                        <td>異同點</td>
+                        <td colspan="2">盡管都是交易媒介，但法幣具有掌權工具的隱性功能等對使用者不良的多重屬性</td>
+                    </tr>
+                    <tr>
+                        <td>換算</td>
+                        <td colspan="2">依照各國官方的M2自比值，作為鳥幣歸位的依據</td>
+                    </tr>
+                    <tr>
+                        <td>趨勢</td>
+                        <td colspan="2">開源程序必然逐步取代中間人作為透明媒介</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="table-txt khula">
+                <span>※</span>
+                <p>交易的定價和換算，除了定義的基本換算規則，需要了解的是，成交時的價格很多時候是基於買賣雙方的想象力，並不是壹個非常固定化的屬性。所以即使官方M2的數據造假也沒有關系，並不影響鳥幣的正常使用。</p>
+            </div>
+        </div>
+        <!-- Token-Sale-->
+        <!-- Allocation-->
+        <div class="wrap-section">
+            <div class="clear khula" id="Allocation">
+                <h2>行動派聯盟</h2>
+                <div class="Token-Allo fl">
+                    <h3>股權結構</h3><svg id="svg"></svg>
+                    <div class="Chart-per">
+                        <span>創始人<br>38%</span><span>合夥人<br>10%</span><span>投資人
+                            <br>20.53%</span><span><br><br>預留<br>31.66%</span>
+                    </div>
+                    <table>
+                        <thead>
+                            <th></th>
+                            <th>占比</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>合夥人</p>
+                                </td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round"></div>
+                                    <p>投資人 </p>
+                                </td>
+                                <td>20.53%</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>創始人</p>
+                                </td>
+                                <td>38%</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>預留</p>
+                                </td>
+                                <td>31.66%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="Funds-Allo fl">
+                    <h3>旗下部分產品</h3><svg id="svg02"></svg>
+                    <div class="Chart-Per-02">
+                        <span>封神丹</span><span>昆侖法門</span><span>音律全圖</span><span>無極圖</span><span>鳥幣</span>
+                    </div>
+                    <table>
+                        <thead>
+                            <th></th>
+                            <th>壹句話介紹</th>
+                            <th>類型</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>昆侖法門</p>
+                                </td>
+                                <td>造夢指南</td>
+                                <td>經文</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>封神丹</p>
+                                </td>
+                                <td>長生不老藥</td>
+                                <td>煲湯料</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>音律全圖</p>
+                                </td>
+                                <td>音樂</td>
+                                <td>工具</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>無極圖</p>
+                                </td>
+                                <td>大壹統理論</td>
+                                <td>工具</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>鳥幣支付</p>
+                                </td>
+                                <td>自由交易工具</td>
+                                <td>支付</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>
+                                    <div class="Round">list-style-round</div>
+                                    <p>超清視頻</p>
+                                </td>
+                                <td>原畫幅攝影</td>
+                                <td>攝影</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Allocation-->
+        <!-- Roadmap-->
+        <div class="khula" id="Roadmap">
+            <h2>鳥幣路線圖</h2>
+            <div class="Roadmap-Inner">
+                <div class="Roadmap-Line">
+                    <img class="mobile-line" src="assets/images/mobile/Line.svg">
+                    <div class="Map01">
+                        <img src="assets/images/roadmap/roadmap1.svg"><img src="assets/images/roadmap/point.svg">
+                        <div class="Month">01</div>
+                        <p class="Date">Sep 01, 2015</p>
+                        <p class="Step">立項 <span></span></p>
+                    </div>
+                    <div class="Map02">
+                        <img src="assets/images/roadmap/roadmap2.svg"><img src="assets/images/roadmap/point.svg">
+                        <div class="Month">02</div>
+                        <p class="Date">Mar 01, 2016</p>
+                        <p class="Step">內測 <span>DEMO</span></p>
+                    </div>
+                    <div class="Map03">
+                        <img src="assets/images/roadmap/roadmap3.svg"><img src="assets/images/roadmap/point.svg">
+                        <div class="Month">03</div>
+                        <p class="Date">Jun 01, 2017</p>
+                        <p class="Step">私募<span></span></p>
+                    </div>
+                    <div class="Map04">
+                        <img src="assets/images/roadmap/roadmap4.svg"><img src="assets/images/roadmap/point.svg">
+                        <div class="Month">04</div>
+                        <p class="Date">Aug 01, 2018</p>
+                        <p class="Step">商戶銜接<span></span></p>
+                    </div>
+                    <div class="Map05">
+                        <img src="assets/images/roadmap/roadmap5.svg"><img src="assets/images/roadmap/point.svg">
+                        <div class="Month">05</div>
+                        <p class="Date">Mar 01, 2020</p>
+                        <p class="Step">預覽版<span></span></p>
+                    </div>
+                    <div class="Map06">
+                        <img src="assets/images/roadmap/roadmap6.svg"><img src="assets/images/roadmap/point.svg">
+                        <div class="Month">06</div>
+                        <p class="Date">Jun 01, 2022</p>
+                        <p class="Step">正式推出</p>
+                    </div>
+                    <img src="assets/images/line.svg">
+                </div>
+            </div>
+        </div>
+
+        <!--Roadmap-->
+        <!-- TEAM-->
+        <div class="wrap-team">
+            <div class="khula" id="Team">
+                <h2>行動派股東</h2>
+                <div class="Profile-view">
+                    <ul class="Profile clear">
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/11-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/11-compressor.png">
+                                <img src="assets/images/09_team/11-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>鳥神</h3>
+                                <p class="Position">行動派創始人</p>
+                                <div class="Profile-box">
+                                    <a href="" target="_blank">
+                                        <h3>鳥神</h3>
+                                        <p class="Position">行動派創始人</p>
+                                        <p class="Profile-content">金剛鳳凰</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/1-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/1-compressor.png">
+                                <img src="assets/images/09_team/1-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>張靜</h3>
+                                <p class="Position">兩只貓的鏟屎官</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>張靜</h3>
+                                        <p class="Position">兩只貓的鏟屎官</p>
+                                        <p class="Profile-content">擁有高超技藝和審美的設計師。曾擔任美食達人、美食地圖等 App Store 榜首熱門應用的設計工作。
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/3-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/3-compressor.png">
+                                <img src="assets/images/09_team/3-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>晏小平</h3>
+                                <p class="Position">晨暉資本創始人</p>
+                                <div class="Profile-box">
+                                    <a href="" target="_blank">
+                                        <h3>晏小平</h3>
+                                        <p class="Position"></p>
+                                        <p class="Profile-content">晨暉資本創始人</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/4-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/4-compressor.png">
+                                <img src="assets/images/09_team/4-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>冉立之</h3>
+                                <p class="Position">起源資本創始人</p>
+                                <div class="Profile-box">
+                                    <a href="" target="_blank">
+                                        <h3>冉立之</h3>
+                                        <p class="Position"></p>
+                                        <p class="Profile-content">起源資本創始人</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/5-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/5-compressor.png">
+                                <img src="assets/images/09_team/5-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>王泉</h3>
+                                <p class="Position">想走遍世界的無為青年</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>王泉</h3>
+                                        <p class="Position">想走遍世界的無為青年</p>
+                                        <p class="Profile-content">"比節操更重要的是智慧！妳以為我靠什麽當飯碗？"</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/6-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/6-compressor.png">
+                                <img src="assets/images/09_team/6-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>邢倩</h3>
+                                <p class="Position">不想生二胎的媽</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>邢倩</h3>
+                                        <p class="Position">不想生二胎的媽</p>
+                                        <p class="Profile-content">“永遠讓小妞兒崇拜我”</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/7-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/7-compressor.png">
+                                <img src="assets/images/09_team/7-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>杜宇</h3>
+                                <p class="Position">人稱黑老大</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>杜宇</h3>
+                                        <p class="Position">人稱黑老大</p>
+                                        <p class="Profile-content">“要成就自己 要先成就他人 相信 就跟我走”</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/8-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/8-compressor.png">
+                                <img src="assets/images/09_team/8-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>鐘國江</h3>
+                                <p class="Position">膽大飄揚過海</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>鐘國江</h3>
+                                        <p class="Position"></p>
+                                        <p class="Profile-content">膽大飄揚過海，我們是系著安全帶在起航</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/9-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/9-compressor.png">
+                                <img src="assets/images/09_team/9-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>朱天辰</h3>
+                                <p class="Position">壹個既想低調，又愛裝逼的矛盾體</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>朱天辰</h3>
+                                        <p class="Position">壹個既想低調，又愛裝逼的矛盾體</p>
+                                        <p class="Profile-content">業余選手業余代表作《我的淚滴》</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <picture>
+                                <source type="image/webp" srcset="assets/images/09_team/2-compressor.webp">
+                                <source type="image/png" srcset="assets/images/09_team/2-compressor.png">
+                                <img src="assets/images/09_team/2-compressor.png" alt="">
+                            </picture>
+                            <div class="Title-box">
+                                <img src="assets/images/09_team/titlebox.svg" class="">
+                                <h3>閆天艾</h3>
+                                <p class="Position">神筆尼古拉斯皇室閆天艾</p>
+                                <div class="Profile-box">
+                                    <a>
+                                        <h3>閆天艾</h3>
+                                        <p class="Position"></p>
+                                        <p class="Profile-content">神筆尼古拉斯皇室閆天艾</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="See-more-box">
+                <p class="See-more">更多</p>
+                <img src="assets/images/09_team/r-arrow-double-blue.svg" class="">
+            </div>
+            <div class="See-more-box-mobile">
+                <p class="See-more-mobile">更多</p>
+                <img src="assets/images/09_team/r-arrow-double-blue.svg" class="">
+            </div> -->
+            </div>
+        </div>
+        <!-- FAQ-->
+        <div id="Wrap-Faq">
+            <div class="khula" id="Faq">
+                <h2>FAQ</h2>
+                <ul class="Tab-Menu clear">
+                    <li class="on">私募</li>
+                    <li>技術問題</li>
+                    <li>團隊</li>
+                </ul>
+                <div class="Tab-Section">
+                    <div class="Tab show">
+                        <ul class="Faq-Title">
+                            <li>
+                                01 鳥幣和行動派是什麽關系？
+                                <div class="Faq-Content">
+                                    <p>鳥幣是行動派旗下出品的壹款主打項目。妳的投資將換取行動派原始股份，這包含了行動派旗下所有產品的分紅權。</p>
+                                </div>
+                            </li>
+                            <li>
+                                02 投資能獲得什麽回報？
+                                <div class="Faq-Content">
+                                    <p>這是壹個極具前瞻性風險極高的項目，我們常常告訴自己要放下對回報的期待，因為任何壹個我們能想象到的最好的版本，都是對真正的回報和不可預測的狂喜的壹種限制。所以請按妳的直覺投資，而不是妳的欲望。簡單來說，壹旦做成，妳將獲得完全超出想象的回報。
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                03 私募如何定價？
+                                <div class="Faq-Content">
+                                    <p>￥361800=1%原始股，本輪合計投資上限為10%，目前本輪募資已經完成9%。</p>
+                                </div>
+                            </li>
+                            <li>
+                                04 如何進行股權交易？
+                                <div class="Faq-Content">
+                                    <p>簽壹個簡單的投資合同。</p>
+                                </div>
+                            </li>
+                            <li>
+                                05 私募資金會如何被運用？
+                                <div class="Faq-Content">
+                                    <p>資金將全部投入到相關項目中。</p>
+                                </div>
+                            </li>
+                            <li>
+                                06 如何看待項目成敗？
+                                <div class="Faq-Content">
+                                    <p>全然投入過程中，奉獻所有熱愛，是冒險家和夢造者最大的成功。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Tab">
+                        <ul class="Faq-Title">
+                            <li>01 鳥幣是區塊鏈嗎?
+                                <div class="Faq-Content">
+                                    <p>不是區塊鏈，我們從不迷信熱門和權威，而是從根部按照最縝密哲學邏輯搭建系統。具體請參考鳥幣白皮書。</p>
+                                </div>
+                            </li>
+                            <li>02 鳥幣如何為商品定價？
+                                <div class="Faq-Content">
+                                    <p>鳥幣采用了人民幣的M2來進行定價轉換，這樣無論如何定價，定價都是可以被買賣雙方理解的。具體請參考鳥幣白皮書。</p>
+                                </div>
+                            </li>
+                            <li>03 鳥幣需要挖礦嗎？
+                                <div class="Faq-Content">
+                                    <p>並不需要，不要用比特幣的邏輯來框鳥幣。如果妳仔細讀過那份簡單的白皮書，妳會發現很多恍然大悟的清晰邏輯。</p>
+                                </div>
+                            </li>
+                            <li>04 鳥幣履行技能是如何進行的?
+                                <div class="Faq-Content">
+                                    <p>假如妳花費了壹些鳥幣購買了壹樣商品，這時其實只進行了壹半的交易，未來當持有妳的鳥幣的人找妳兌現妳承諾的技能的時候，妳就需要履行承諾了。當然妳也可以拒絕，不過這就會暫時影響到系統中妳的信用，稍後妳也可以重新接受履行承諾，這時信用就會恢復了。具體請參考鳥幣白皮書。
+                                    </p>
+                                </div>
+                            </li>
+                            <li>05 鳥幣是想發行多少就發行多少嗎？
+                                <div class="Faq-Content">
+                                    <p>理論上來說，是的，但實際操作中，如果商家覺得妳的技能價值不能達到妳聲稱的鳥幣價值，交易自然就不會發生了。具體請參考鳥幣白皮書。</p>
+                                </div>
+                            </li>
+                            <li>06 鳥幣將會取代人民幣嗎?
+                                <div class="Faq-Content">
+                                    <p>首先，鳥幣並不具備強制性，按法律的說法，就不是貨幣，所以也不需要金融牌照。同時，鳥幣是長久保值的（壹個人的技能價值直到這人死去才可能會消失）。
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Tab">
+                        <ul class="Faq-Title">
+                            <li>01 鳥神是誰?
+                                <div class="Faq-Content">
+                                    <p>鳥神是行動派的創始人。行動派官方主站的地址：xingdongpai.com</p>
+                                </div>
+                            </li>
+                            <li>02 開發團隊有多少人？
+                                <div class="Faq-Content">
+                                    <p>很長壹段時間全職開發人員僅鳥神壹人(超級英雄電影看太多了)</p>
+                                </div>
+                            </li>
+                            <li>
+                                03 對層出不窮的搞數字貨幣的人看法？
+                                <div class="Faq-Content">
+                                    <p>首先，如果老是想從自己創造的貨幣系統中牟利，那麽最開始就已經失敗了；其次，絕大多數搞數字貨幣的人，哲學不行、抽象能力不夠，就只能鉆技術的牛角尖，最後用戶壹臉懵圈。</p>
+                                </div>
+                            </li>
+                            <li>04 做鳥幣的動機？
+                                <div class="Faq-Content">
+                                    <p>被壹種直覺吸引了，大多數的時候其實根本沒想自己。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/images/10_faq/faq.svg">
+        </div>
+        <!-- FAQ-->
+    </div>
+</body>
+<!--Footer-->
+<div class="khula" id="Footer">
+    <!--top-->
+    <!--    <img class="top" src="assets/images/topbtn01.svg">-->
+    <!--top-->
+    <div class="Footer-Top clear">
+        <h2 class="fl">
+            <a href="index.html">
+                <img src="assets/images/11_footer/ibispay-footer.svg">
+            </a>
+        </h2>
+        <ul class="Footer-Nav fl clear">
+            <li data-index=".Download">
+                <p>白皮書</p>
+            </li>
+            <li class="scroll-navigation" data-index="#How-Does">
+                <p>平臺概述</p>
+            </li>
+            <li class="scroll-navigation" data-index="#Token-Sale">
+                <p>成為股東</p>
+            </li>
+            <li class="scroll-navigation" data-index="#Team">
+                <p>關於我們</p>
+            </li>
+        </ul>
+        <ul class="Footer-Sns clear fr">
+            <li>
+                <a href="https://github.com/fenixnake" target="_blank"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/xingdongpai/" target="_blank"></a>
+            </li>
+            <li>
+                <a href="https://medium.com/@cooerson" target="_blank"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCAjZCihD4igTs8EHY6MneQw" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="Footer-Bottom">
+        <p>Copyright © 2015-2035 niaobi.org</p>
+    </div>
+</div>
+<!--Footer-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg.min.js"></script>
+<script type="text/javascript" src="assets/js/svg-donut-chart-framework-v=1.min.js"></script>
+
+
+
+</html>
