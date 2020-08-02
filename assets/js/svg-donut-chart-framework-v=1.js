@@ -24,12 +24,12 @@ var programmingSkills = [{
 ];
 var programmingSkills02 = [{
         value: 30,
-        label: '鸟币支付',
+        label: '封神丹',
         color: '#454bd8'
     },
     {
         value: 10,
-        label: '超清视频',
+        label: '无极图',
         color: '#a585d3'
     },
     {
@@ -39,12 +39,12 @@ var programmingSkills02 = [{
     },
     {
         value: 34.86,
-        label: '九转金丹',
+        label: '音律全图',
         color: '#4cccd6'
     },
     {
         value: 15.14,
-        label: '行动派',
+        label: '鸟币支付',
         color: '#e26280'
     },
 
